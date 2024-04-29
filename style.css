@@ -181,6 +181,41 @@ img{
   background-color: var(--first-color-darken);
 }
 
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the why-investiq section */
+#why-investiq {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Style the list items */
+#why-investiq ul {
+    list-style-type: none;
+}
+
+/* Style the list item headings */
+#why-investiq h3 {
+    color: #007bff; /* Blue color */
+}
+
+/* Style the list item paragraphs */
+#why-investiq p {
+    margin-bottom: 15px;
+}
+
+/* Add some space between list items */
+#why-investiq li + li {
+    margin-top: 20px;
+}
+
+
 /* ===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px){
   body{
